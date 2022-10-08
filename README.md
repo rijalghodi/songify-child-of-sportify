@@ -10,19 +10,19 @@ In this app, user can search song based on title, artist, or album, provided by 
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
-Click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
-
-## What I Learn
-
-Implementation of React-Redux and Redux Tool Kit material.
-
-- oAout 2.0
-- Fetch API
-- Transfer data between React components
+Or simply click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
 
 ## To Test
 
-- Type a song title, artist, or album. Click search
-- You are going to redirected to your spotify account. Do login.
+- Type a song title, artist, or album. Click search button
+- You will be redirected to spotify login page. Do login
 - Add one or more songs appear in result stack by clicking plus sign button
-- Rename playlist and save that playlist to your spotify account by clicking save button
+- Rename playlist and save that playlist to your spotify account
+- Check your new playlist in spotify account
+
+## What I Learn
+
+- Implementing standard protocol for authorization, oAouth 2.0,
+- Practicing GET and POST request using fetch API
+- Passing data between React components using props
+- updating state of React component by trigerring an event
