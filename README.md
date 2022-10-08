@@ -10,7 +10,7 @@ In this app, user can search song based on title, artist, or album, provided by 
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
-Or simply click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
+Or simply click [this link](https://rijalghodi-songify.netlify.app/) to see the project deployment.
 
 ## To Test
 
