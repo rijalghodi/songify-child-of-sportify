@@ -16,6 +16,7 @@ Or simply click [this link](https://rijalghodi-songify.netlify.app/) to see the 
 
 - Type a song title, artist, or album. Click search button
 - You will be redirected to spotify login page. Do login
+- Repeat step 1
 - Add one or more songs appear in result stack by clicking plus sign button
 - Rename playlist and save that playlist to your spotify account
 - Check your new playlist in spotify account
