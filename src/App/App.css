@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Work+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lato:wght@400;700&family=Raleway:wght@600&display=swap");
+
+:root {
+  --tertiary: #9f80ff;
+  --secondary: #00ff59;
+}
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: 0.77rem 0;
+  background-color: #111112;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.4rem;
+  color: var(--secondary);
+}
+
+h1 .highlight {
+  color: var(--tertiary);
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-color: #222326;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: var(--secondary);
+  letter-spacing: 1px;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
