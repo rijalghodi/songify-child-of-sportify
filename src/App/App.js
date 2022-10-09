@@ -114,6 +114,9 @@ class App extends React.Component {
             <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks} onRemove={this.removeTrack} onNameChange={this.updatePlaylistName} onSave={this.savePlaylist} />
           </div>
         </div>
+        <div className="copyright">
+          © <a href="https://rijalghodi.github.io">Rijal Ghodi </a>2022 All Rights Reserved
+        </div>
       </div>
     );
   }

@@ -52,6 +52,20 @@ h2 {
   width: 100%;
 }
 
+.copyright {
+  position: static;
+  text-align: center;
+  color: white;
+  background-color: #222326;
+  padding: 20px 5px;
+  margin: 0 auto;
+}
+
+.copyright a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1020px) {
   .App-playlist {
     align-items: center;
