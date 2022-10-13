@@ -14,7 +14,7 @@ export default function SearchBar(props) {
   const handleTermChange = ({ target }) => {
     setTerm(target.value);
     setStoredTerm(target.value);
-    console.log(term);
+    console.log(storedTerm);
   };
 
   return (
